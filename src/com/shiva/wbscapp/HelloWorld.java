@@ -8,7 +8,7 @@ import javax.swing.text.Style;
 @SOAPBinding(style = Style.RPC)
 public class HelloWorld {
 	  
-	  //ok
+	  
 	    @WebMethod String getHelloWorldAsString(String name) {
 			return null;
 		}  
